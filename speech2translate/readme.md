@@ -6,9 +6,16 @@ Translate MP3 voice recordings. Default: from Traditional Chinese to English.
 2. `pip install -r requirements.txt`
 
 # Usage
-```> python speech2translate.py my_recording.mp3
+```
+> python speech2translate.py my_recording.mp3
 Converting to WAV
 Converting to text
 Recorded: OK好那我们现在在做测试有听到我的声音吗
 Translated: OK, so we're doing a test now, do you hear my voice?
+>
 ```
+
+# Next steps
+- Add auto-detection of spoken language.
+- Add destination language choice.
+- Add TTS to the translation.
